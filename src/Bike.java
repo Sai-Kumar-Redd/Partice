@@ -1,5 +1,5 @@
 public class Bike {
-    final void run(){
+    static void run(){
         System.out.println("Running");
                                                // Final Keyword: A final class is a class
                                                // that can't be extended.
@@ -8,7 +8,8 @@ public class Bike {
     }
     static class Car extends  Bike{
         public static  void main(String[]args){
-             new Car().run();
+
+            new Car().run();
         }
     }
 }
