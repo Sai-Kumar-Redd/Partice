@@ -11,7 +11,7 @@ public class Student {
 
 
 }
-class OnlineStudent extends Student{
+/*class OnlineStudent extends student {
      String Platform="Coursera";
 
 
@@ -22,11 +22,11 @@ class OnlineStudent extends Student{
 }
 class TestStudent {
     public static void main(String[]args){
-        Student s=new Student();
+        student s=new student();
         s.StudentID=101;
         s.printData();
 
         OnlineStudent o=new OnlineStudent();
         o.printData();
     }
-}
+}*/
